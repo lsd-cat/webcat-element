@@ -1,0 +1,1 @@
+Sample deployment on Cloudflare Pages of [element-web](https://github.com/element-hq/element-web). The files used here are the built version 1.11.94 from the debian package. For more documentation wee [webcat](https://github.com/freedomofpress/webcat)

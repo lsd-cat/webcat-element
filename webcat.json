@@ -1,0 +1,165 @@
+{
+    "manifest": {
+        "app_name": "Element",
+        "app_version": "1.11.92",
+        "comment": "https://github.com/element-hq/element-web/releases/tag/v1.11.94",
+        "wasm": [
+            "cd1d29c43b3fa05719c3d024ed9b9f1528be92415bd6d39d413b262a61d1891f",
+            "bbe1bdf739104285ea11a01691acf06f3e1559f9033c4664803cde42be2107ca",
+            "c60a5808869df06b159d2fccc882a44e453f12e8f4e3e4d0d9abdf5e48ee6d72"
+        ],
+        "default_csp": "default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; img-src * blob: data:; connect-src * blob:; font-src 'self' data: ; media-src * blob: data:; child-src blob: data:; worker-src 'self'; frame-src blob: data:; form-action 'self'; manifest-src 'self'; frame-ancestors 'self'",
+        "extra_csp": {},
+        "files": {
+            "/": "3631c6d8ff9a91be109514979954710fd5480173086e808a3c2b6eef8a21a7b7",
+            "/jitsi.html": "84d6fcc43509bd3c4bd01869df0bed1d085211eecbe6947b44149beb8fa2d179",
+            "/welcome.html": "6041b04651a2eab971118951947a0297a54aa951f545e2fb3820731ca7706a96",
+            "/usercontent/": "498767bbd4077a3341b351cd8d41754b2893a43e56608d0bc3b0f030864b3282",
+            "/static/incompatible-browser.html": "bf086d263eb5abc26dd37b60e2436d438c9d267ef9c99d52bee04f38a3791473",
+            "/static/unable-to-load.html": "89ac4d625ceb217a1f94cb15106cdf477d53c3dc08c30b220e43f50d920a1354",
+            "/mobile_guide/": "5fa499814c9b74a37d60bd8ca889eb85d7e25eb03fe5b0a4de08b70c44f62c1b",
+            "/decoder-ring/": "8bcefb9f4b735ebd3cc01f1761bfa408b27a36ca3b6e3474d8716df16dd05c54",
+            "/bundles/8e909d27667a3896d37b/theme-legacy-light.css": "6d3df800f09a3dd4431ced5da9414c01b837a445daab345124e862b9abd379a5",
+            "/bundles/8e909d27667a3896d37b/bundle.css": "822e0bbc73cf6f0bcce7458bb4771f94d0a248f8c9599c02e9024b2b3bdae8a8",
+            "/bundles/8e909d27667a3896d37b/styles.css": "64d02a336e80541653d498223bb9d2d7b2d120d40bc05e5b6a27194d1fe21d2f",
+            "/bundles/8e909d27667a3896d37b/theme-light-high-contrast.css": "51aeb703a4ccaf42c78fefcbd46eadfec3b6113aa9907955f7d5f886822d361f",
+            "/bundles/8e909d27667a3896d37b/theme-dark.css": "9408c5cca2933ce7ec61072143536e14fa669f32f443e7918a9b76d336082112",
+            "/bundles/8e909d27667a3896d37b/theme-dark-custom.css": "d2b717944369f3e7fd87aed770bab9b6e4ff772fd8a485df1ad6a784d371d805",
+            "/bundles/8e909d27667a3896d37b/theme-light.css": "bf28ff739b42500f403a29e359016b32efdf475dc262fc3c3988e6294c3ae45e",
+            "/bundles/8e909d27667a3896d37b/theme-legacy-dark.css": "f6b433f3f9fde8b7376160192d62d2fabe6921dce7a6e96c01cf450dae745f0e",
+            "/bundles/8e909d27667a3896d37b/theme-light-custom.css": "b897eab3da794fdf620f648d3e2390570642dff5d2a646ff5de35927a80a9430",
+            "/bundles/8e909d27667a3896d37b/jitsi.css": "7435941a58b65491806e570762b64ee2ccdbd55fa2bffe13124b64a81c1715cd",
+            "/bundles/8e909d27667a3896d37b/error-view.css": "3c8715f5533c08620b224bd04bbf80d97b11167e09cd4b6ac8f6ca72424d1e45",
+            "/recorder.worklet.js": "48135c9aa1a60d0a19736c2662e4b771166b233abccb7222e168e21828c553db",
+            "/jitsi_external_api.min.js": "4b28e89d56ae0ada3595d3e6f69aef0a7adb62b2185347277a0b5bdf245e2049",
+            "/opus-decoderWorker.min.f69d392.js": "8982c03fda354c4af31d27a0383ccd55c571c2605aeeeda1db34339cac7a442c",
+            "/opus-encoderWorker.min.8bd8ff5.js": "ea4e9a9e57310c9a17d3acce1fa1970a972e5aed7e50774bb543500dd3c20586",
+            "/wave-encoderWorker.min.9f737c9.js": "03a77999e8e0a45affb803410a2f08783024da0864ffcec2df01377bd36d93d2",
+            "/sw.js": "c417a2a669eef2ba1e5e5fc7435bc9d02d8d53a4d0b7450b75ba7642bfec53d7",
+            "/decoder-ring/decoder.js": "06f53756e399a30e40bd11c5f351fa04a9f8f423d3d138f7ff23cf75c25a3314",
+            "/decoder-ring/datatypes.js": "2d1d591b39a321649b43a2dd85eeaa056cea4fa8cf3c03c1242059c995296863",
+            "/bundles/8e909d27667a3896d37b/9381.js": "ac776404c4678bacf68c3ee19e1e86c42c937ecd9933aaee43d83465eb6811b7",
+            "/bundles/8e909d27667a3896d37b/mobileguide.js": "a4711f09fc6245a353efbf6cc36c458765874b05899ad2bf403a4ae05d1a8947",
+            "/bundles/8e909d27667a3896d37b/theme-dark.js": "a64232e6329d7b8b855b1f7d0fa2b6b8c9b9630e770b5a8cacbe7b62a8635221",
+            "/bundles/8e909d27667a3896d37b/intl-segmenter-polyfill.js": "cf4848848ddd6eef78a4485bdc53bee17a15b5ed74267627a240e9d4a35a501d",
+            "/bundles/8e909d27667a3896d37b/6464.js": "c40a46463fdcf54321cacc4fd6c66eee5398ef7ce1f8fadf7fe8af51d44a40c7",
+            "/bundles/8e909d27667a3896d37b/5215.js": "13dfef5938a967b5fefe0a190ccbe97936dce6a5b7b0ed345733c50f8eb04ea7",
+            "/bundles/8e909d27667a3896d37b/theme-light-high-contrast.js": "bdcf3b5646eac51b6024d813de395397442264fffa6f507ad64e56b13e48f3f2",
+            "/bundles/8e909d27667a3896d37b/7211.js": "bd74b0474ace6c67c889b83205df6e84ea5d602b5e283ff97b68450b1fcf6fd0",
+            "/bundles/8e909d27667a3896d37b/1127.js": "0f50269e03c37b8964a3394719b455b534a47fd03338e597584249fcb09e3b89",
+            "/bundles/8e909d27667a3896d37b/theme-dark-custom.js": "e978918f1829ce82fc95516fb7adc8c8c0df4d81f63073afa9fae36fe33400a6",
+            "/bundles/8e909d27667a3896d37b/6762.js": "7597fd3effb8f3901a7250e8327196ebe25e8c4942b904050cba1fb2f9d08acb",
+            "/bundles/8e909d27667a3896d37b/unhomoglyph_data.js": "02bc9257c06aa75c38d5faa29d650c3817d0225a297c6e8e9007d38240cc84b8",
+            "/bundles/8e909d27667a3896d37b/6501.js": "48fff083671c020d25139256b08feda71c8306dcd5747f9d58362331511cd46a",
+            "/bundles/8e909d27667a3896d37b/1095.js": "31aa869fa99f9f4b293b7f9dadac7d8c5a24df647b12fd12df0a0c84d0f7c597",
+            "/bundles/8e909d27667a3896d37b/error-view.js": "f64996612d0b0e3810f837c269544aa0dd5a0d6ae62cbe35f59be63a89448a76",
+            "/bundles/8e909d27667a3896d37b/6717.js": "b73a9ffef33e6823a2fcb982db7efae7fa2fba8470a8d822b390f9152475e130",
+            "/bundles/8e909d27667a3896d37b/blurhash.worker.js": "7fc7c9d6f98006e720e0c69addaf29d8421245949fdfd338b5004a1d5bde5697",
+            "/bundles/8e909d27667a3896d37b/3260.js": "b2bf2bf81959931a5b42c95e97d4e42c36a3543014f57161ebfe2e30bcf67995",
+            "/bundles/8e909d27667a3896d37b/3636.js": "0ca18e3e95cf4a6f63dc5296a2093a65e8c78520e15797d955e8a480f71865ac",
+            "/bundles/8e909d27667a3896d37b/theme-light.js": "105558095c50feafc187835237e63386573dcab8fc36efcb4e817983d2347c1e",
+            "/bundles/8e909d27667a3896d37b/bundle.js": "3cd83632be46f0d0a242372cd763fbee1ae7f9b6f485f3723ef04d3bcf26f3b7",
+            "/bundles/8e909d27667a3896d37b/5914.js": "78866c75c74ae27f8643d75988cde13d05835cc21c7be65b35c409ebb25c4417",
+            "/bundles/8e909d27667a3896d37b/4006.js": "a07bedef6d9a3a738ba47b6af43659c78304cbecc940b8486fa973af04b3d7d3",
+            "/bundles/8e909d27667a3896d37b/7766.js": "a242f5d001df126e92a45add47631fd06669adb577227eea6c6490c077da1e79",
+            "/bundles/8e909d27667a3896d37b/2382.js": "efe3ab7206c986af871455618e89186c20b7d1ec18c09196647bed44f6c6b8c3",
+            "/bundles/8e909d27667a3896d37b/6311.js": "2b46eb07b2912f3c30ecf7af1307cf31f553e125a59148e44fea4a6ea4156d43",
+            "/bundles/8e909d27667a3896d37b/theme-legacy-dark.js": "fe3f7517096ec5f7259dbac4924e5ec8205efca2fdc2d634cfa096d4de64bbb7",
+            "/bundles/8e909d27667a3896d37b/9963.js": "c598f5e8be5f0fdef602edd556e515afe24e91c0d0abf23ad426fd374aa04f2b",
+            "/bundles/8e909d27667a3896d37b/6063.js": "bcd4c3254e25b36b1763be06c31131a364637ae903768e083337b98c3419c086",
+            "/bundles/8e909d27667a3896d37b/theme-legacy-light.js": "01c7fb3fd121b7020b4106110c1cd787b5513d674ca41772cf687636d492f016",
+            "/bundles/8e909d27667a3896d37b/8227.js": "0b208419122f69c165a27d71e94438496a49151b69d6a2de25a566680d7a495d",
+            "/bundles/8e909d27667a3896d37b/usercontent.js": "f77f4af698c9ad2a6734c8d51ced82371bb4e5383fae5f18587e17c2bbf02230",
+            "/bundles/8e909d27667a3896d37b/7697.js": "0d17f7acab033378a9eb4d8294d70eb141a81438ff0e5729a082facfd07e821d",
+            "/bundles/8e909d27667a3896d37b/init.js": "29023ac42ff16e931f39c07d8c4fa98fef3ec4c60901746156292dca6daa1e0d",
+            "/bundles/8e909d27667a3896d37b/797.js": "6c9cf42a1a99ed13cc1518a34f843519fe0b057e0f4718c38adcea7302072ca0",
+            "/bundles/8e909d27667a3896d37b/1787.js": "baf16e1f230e7143ab6077bc77e1f538340daf0028c3c2e94a443295ac1f1be2",
+            "/bundles/8e909d27667a3896d37b/927.js": "3bbf6405b53b3146e65d102a964140c9c4f082c37a3aa938b41751f81ed903b8",
+            "/bundles/8e909d27667a3896d37b/1188.js": "27df92e19ab4db50cbf9b24b54b03eb6cfcc2016c6382acaf165ec3d39691327",
+            "/bundles/8e909d27667a3896d37b/7692.js": "641f9409954abe9094e86e4697c0a4566e36878906a17da9614c3fac5b02f9ae",
+            "/bundles/8e909d27667a3896d37b/1526.js": "895fcf431e9d31ca89e1e6beadf1d8a447d7dbc6e9489ecf9a0dca65e3a88ef9",
+            "/bundles/8e909d27667a3896d37b/7088.js": "93845cf1d7d66fbf210839169b50a0c926c58336da4e3c0981d60a00d5e2607e",
+            "/bundles/8e909d27667a3896d37b/playback.worker.js": "4838a24d8f007ac7611f29ab10086d4b44b93777d14a640cb6796c6745af9a73",
+            "/bundles/8e909d27667a3896d37b/9924.js": "53e354e5fee37dc7ef919f56ae3fa9bc362c42fd85f1932ad472fe762c88889e",
+            "/bundles/8e909d27667a3896d37b/indexeddb.worker.js": "0a84610695d7e4fb6831931fc19bb2a5111a283f1afadd00bdc637af90c8943c",
+            "/bundles/8e909d27667a3896d37b/jitsi.js": "32a65e2ddaba13916c475f2c7f9011f3cbc75adc51cc76bf4c01d41fe9692499",
+            "/bundles/8e909d27667a3896d37b/5050.js": "5e58738a766e928c1ad7fb7a750e85ceaad6bdc5d9ec5ed1600a45f6ef446743",
+            "/bundles/8e909d27667a3896d37b/9123.js": "2b2639142fdb1fa8cfea6ca81aa0453de10f025c9009258aff937b28b425d9a5",
+            "/bundles/8e909d27667a3896d37b/4522.js": "d137c191033480072256b68c4b3d8d3aace53df06ed1bc4cf9af8aa4f2f28f88",
+            "/bundles/8e909d27667a3896d37b/395.js": "2824bcc6f796ee547db5f20a955556bec2feda13b28611b1c1f7b1171e9b5f3e",
+            "/bundles/8e909d27667a3896d37b/theme-light-custom.js": "9c47a822522ff8edc1b1c3ce12ecd89f23d757e8a965f22c4e9e1b2294ef05b8",
+            "/bundles/8e909d27667a3896d37b/9393.js": "03b993b094ee78969937b6c9d4a4b4ec6fbacb983347a0d578579fd7a1ab6d8d",
+            "/bundles/8e909d27667a3896d37b/3075.js": "a716661cb792917eeed8162eb3bb63b329d13503ec87c5fd452184dd48a1095c",
+            "/bundles/8e909d27667a3896d37b/8901.js": "173b2a76287855b5b58a65ffabd0a7aa5f41a641aa20b7561156204941e634be",
+            "/bundles/8e909d27667a3896d37b/3197.js": "9faae2e213907178c7d9484b9dab448c7c3c232f58f5e867d80c4d2713570500",
+            "/bundles/8e909d27667a3896d37b/3323.js": "668d55d41f05067b4fd6a3632e4b8005748d341197f75540c7dca134c3c63c22",
+            "/bundles/8e909d27667a3896d37b/4595.js": "a79ea66154b01e39e440bb2af0f5bdf7f65708287e4fcc1b627b6a43ff94db83",
+            "/bundles/8e909d27667a3896d37b/3878.js": "3ccf05a6139353fa951856a14926d09abfc46475bf474ae94268f32ae0f710ee",
+            "/bundles/8e909d27667a3896d37b/3508.js": "61f35efefdb2d92f9c23e7e3f5f8a79857295d5be213c1a0df43c52d5b861461",
+            "/bundles/8e909d27667a3896d37b/styles.js": "664b2a8162f1b490326a5ccb90f2a4d9aa4f93eee57725367857a9de35b6fa83",
+            "/bundles/8e909d27667a3896d37b/5438.js": "562fd6686bfeb90cbb51995c812deb496d71ecd1780902dec901498f306e9050",
+            "/bundles/8e909d27667a3896d37b/3380.js": "3ef627926721168d429a8a222dee3c6e4484141ba31e413adee788e7b3f5d9e6",
+            "/bundles/8e909d27667a3896d37b/element-web-app.js": "f952113c413b7bc9cdbb96d23aebeab4bf93eace24800098ef4bdee76a804d7b",
+            "/bundles/8e909d27667a3896d37b/7014.js": "bbd611cb4b9882c9ae7a5ab2c9f8cd967005b853a1ef80d85fca6704ea754770",
+            "/bundles/8e909d27667a3896d37b/458.js": "1b3592ddbfefa950e62ce776a3a42ed4701a528b52473b7c6e06e50164fa7ccd",
+            "/bundles/8e909d27667a3896d37b/2792.js": "3417054b3a97f64a3f51151751ba793daa54695fac37c7a19f0dd149c0a8b72e"
+        }
+    },
+    "signatures": {
+        "giulio@freedom.press": {
+            "mediaType": "application/vnd.dev.sigstore.bundle.v0.3+json",
+            "verificationMaterial": {
+                "certificate": {
+                    "rawBytes": "MIICzTCCAlSgAwIBAgIUXSYJkq4a5RtBbOAKTRJ68ZwkRSMwCgYIKoZIzj0EAwMwNzEVMBMGA1UEChMMc2lnc3RvcmUuZGV2MR4wHAYDVQQDExVzaWdzdG9yZS1pbnRlcm1lZGlhdGUwHhcNMjUwMjI4MjA0NjQxWhcNMjUwMjI4MjA1NjQxWjAAMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmPxLCYl1P/6v4QvUz90VLfD9/e4Iep4Azm4Yjce74KkVZ2DZ521s8pL0MZLxvwGUy9DF3igi0AmR4/pghYiKMaOCAXMwggFvMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUShCDYxcw8y/eDtwMCVrkuvQUEREwHwYDVR0jBBgwFoAU39Ppz1YkEZb5qNjpKFWixi4YZD8wIgYDVR0RAQH/BBgwFoEUZ2l1bGlvQGZyZWVkb20ucHJlc3MwKQYKKwYBBAGDvzABAQQbaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tMCsGCisGAQQBg78wAQgEHQwbaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tMIGLBgorBgEEAdZ5AgQCBH0EewB5AHcA3T0wasbHETJjGR4cmWc3AqJKXrjePK3/h4pygC8p7o4AAAGVTk+1RgAABAMASDBGAiEAxbFpBbsMgEVwgNzfglwujF677MDb/eh6acqrrH69bZoCIQC8MYkowS6L8xXOJTWePsJArsc/fEn1OVVQB+0rMEpXhDAKBggqhkjOPQQDAwNnADBkAjAy3d/n6MNhQajmKKf3M584LM/1fPG2smq0WXkYFE4SzwvkpTa4tzcJKrlvEz/niXwCMELEnyY2LXqBKBTuLkzrULpYjqHSbAZNV/y24UE1xN8V5adPHTZ9vi8RyCGlef9VpQ=="
+                },
+                "tlogEntries": [
+                    {
+                        "logIndex": "175537817",
+                        "logId": {
+                            "keyId": "wNI9atQGlz+VWfO6LRygH4QUfY/8W4RFwiT5i5WRgB0="
+                        },
+                        "kindVersion": {
+                            "kind": "hashedrekord",
+                            "version": "0.0.1"
+                        },
+                        "integratedTime": "1740775602",
+                        "inclusionPromise": {
+                            "signedEntryTimestamp": "MEUCICMjfSjzqJvTXMnBMfPXj4dfhKl5qZbGHW3LqrVvOp+VAiEAz0yDlgDWLpyeo5ek69+YaLrhF92hK57xaornWFN60Jo="
+                        },
+                        "inclusionProof": {
+                            "logIndex": "53633555",
+                            "rootHash": "9qnh+pEB8eQjv3V33Sn9fweRBN9ard0LcXwHoa/WH+g=",
+                            "treeSize": "53633558",
+                            "hashes": [
+                                "RTK0Ge9pftNTfzhc9gleCCBI6MvfdYF5U3MCRTSqY0Q=",
+                                "SnjBL2c6ishNk+bfi2yyT7VSPKfRSMpp5HrK5Q+n6PU=",
+                                "SZpEg9qBo5w/mLLi4rZx6KS8W/r6efjyHx7GQe2gte8=",
+                                "qi7YK0PuyD2V1e8kn2UscmpuiM4Z1iSDTLSdRD/FY4g=",
+                                "uH0AVkcXHRRNRzttUoj3PL0h1Isv6tqGRqotCzyHCQE=",
+                                "7NvoH/M3Ts8pzhCK1HdUt+EA3rqDmLj1zgsj0e0c2uQ=",
+                                "TWUSeNz2Vzw92kByhluzhwdNkz/Uc2hKfci3D+FkKXo=",
+                                "rEug7x+dPPSxpFQ4mNRHxn/b++GplYkk0wvZ5g1eyi0=",
+                                "lL6jxdDTg23iUvuwRop1833jkmWSvr7sLBM3hXZ8tTU=",
+                                "eExzddanJoxYTKoErFFSTDFUR3UvwaaXxcddWwQJd7I=",
+                                "ebCKJ53lKWPqIx8mXXgznF9DGoQv70J7JTlFAav6s5E=",
+                                "vemyaMj0Na1LMjbB/9Dmkq8T+jAb3o+yCESgAayUABU="
+                            ],
+                            "checkpoint": {
+                                "envelope": "rekor.sigstore.dev - 1193050959916656506\n53633558\n9qnh+pEB8eQjv3V33Sn9fweRBN9ard0LcXwHoa/WH+g=\n\n\u2014 rekor.sigstore.dev wNI9ajBGAiEAqeMOn2ya2ch22Jz0kzDDxHdE690PGmtXfMbGAMjEbOYCIQDNOVeIRJUeJjyANULiY8VWZRHA5UXTLKpuVxpwzNQ1ig==\n"
+                            }
+                        },
+                        "canonicalizedBody": "eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhMjU2IiwidmFsdWUiOiI0NTgxMTUyOGE5OTBiZTI2YmEyNGY2ZGFiM2UzMDY5YTEwMWQ3MzYzMjI4MTJiYmYxODNiOGE3NjZjMmVjNzA2In19LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FVUNJRGhBaU1wOTZQOFdyU2RYZFlQYUJnS0kraFRaTzhrb3dhaHhycWVTMlNGWUFpRUF4WFpVMXNJbDBzd25pMTBaYUs5Q0VDeE1uREt0MkN6MUlxeWdWQTdwaU1jPSIsInB1YmxpY0tleSI6eyJjb250ZW50IjoiTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVTjZWRU5EUVd4VFowRjNTVUpCWjBsVldGTlpTbXR4TkdFMVVuUkNZazlCUzFSU1NqWTRXbmRyVWxOTmQwTm5XVWxMYjFwSmVtb3dSVUYzVFhjS1RucEZWazFDVFVkQk1WVkZRMmhOVFdNeWJHNWpNMUoyWTIxVmRWcEhWakpOVWpSM1NFRlpSRlpSVVVSRmVGWjZZVmRrZW1SSE9YbGFVekZ3WW01U2JBcGpiVEZzV2tkc2FHUkhWWGRJYUdOT1RXcFZkMDFxU1RSTmFrRXdUbXBSZUZkb1kwNU5hbFYzVFdwSk5FMXFRVEZPYWxGNFYycEJRVTFHYTNkRmQxbElDa3R2V2tsNmFqQkRRVkZaU1V0dldrbDZhakJFUVZGalJGRm5RVVZ0VUhoTVExbHNNVkF2Tm5ZMFVYWlZlamt3Vmt4bVJEa3ZaVFJKWlhBMFFYcHRORmtLYW1ObE56UkxhMVphTWtSYU5USXhjemh3VERCTldreDRkbmRIVlhrNVJFWXphV2RwTUVGdFVqUXZjR2RvV1dsTFRXRlBRMEZZVFhkblowWjJUVUUwUndwQk1WVmtSSGRGUWk5M1VVVkJkMGxJWjBSQlZFSm5UbFpJVTFWRlJFUkJTMEpuWjNKQ1owVkdRbEZqUkVGNlFXUkNaMDVXU0ZFMFJVWm5VVlZUYUVORUNsbDRZM2M0ZVM5bFJIUjNUVU5XY210MWRsRlZSVkpGZDBoM1dVUldVakJxUWtKbmQwWnZRVlV6T1ZCd2VqRlphMFZhWWpWeFRtcHdTMFpYYVhocE5Ga0tXa1E0ZDBsbldVUldVakJTUVZGSUwwSkNaM2RHYjBWVldqSnNNV0pIYkhaUlIxcDVXbGRXYTJJeU1IVmpTRXBzWXpOTmQwdFJXVXRMZDFsQ1FrRkhSQXAyZWtGQ1FWRlJZbUZJVWpCalNFMDJUSGs1YUZreVRuWmtWelV3WTNrMWJtSXlPVzVpUjFWMVdUSTVkRTFEYzBkRGFYTkhRVkZSUW1jM09IZEJVV2RGQ2toUmQySmhTRkl3WTBoTk5reDVPV2haTWs1MlpGYzFNR041Tlc1aU1qbHVZa2RWZFZreU9YUk5TVWRNUW1kdmNrSm5SVVZCWkZvMVFXZFJRMEpJTUVVS1pYZENOVUZJWTBFelZEQjNZWE5pU0VWVVNtcEhValJqYlZkak0wRnhTa3RZY21wbFVFc3pMMmcwY0hsblF6aHdOMjgwUVVGQlIxWlVheXN4VW1kQlFRcENRVTFCVTBSQ1IwRnBSVUY0WWtad1FtSnpUV2RGVm5kblRucG1aMngzZFdwR05qYzNUVVJpTDJWb05tRmpjWEp5U0RZNVlscHZRMGxSUXpoTldXdHZDbmRUTmt3NGVGaFBTbFJYWlZCelNrRnljMk12WmtWdU1VOVdWbEZDS3pCeVRVVndXR2hFUVV0Q1oyZHhhR3RxVDFCUlVVUkJkMDV1UVVSQ2EwRnFRWGtLTTJRdmJqWk5UbWhSWVdwdFMwdG1NMDAxT0RSTVRTOHhabEJITW5OdGNUQlhXR3RaUmtVMFUzcDNkbXR3VkdFMGRIcGpTa3R5YkhaRmVpOXVhVmgzUXdwTlJVeEZibmxaTWt4WWNVSkxRbFIxVEd0NmNsVk1jRmxxY1VoVFlrRmFUbFl2ZVRJMFZVVXhlRTQ0VmpWaFpGQklWRm81ZG1rNFVubERSMnhsWmpsV0NuQlJQVDBLTFMwdExTMUZUa1FnUTBWU1ZFbEdTVU5CVkVVdExTMHRMUW89In19fX0="
+                    }
+                ],
+                "timestampVerificationData": {}
+            },
+            "messageSignature": {
+                "messageDigest": {
+                    "algorithm": "SHA2_256",
+                    "digest": "RYEVKKmQvia6JPbas+MGmhAdc2MigSu/GDuKdmwuxwY="
+                },
+                "signature": "MEUCIDhAiMp96P8WrSdXdYPaBgKI+hTZO8kowahxrqeS2SFYAiEAxXZU1sIl0swni10ZaK9CECxMnDKt2Cz1IqygVA7piMc="
+            }
+        }
+    }
+}
